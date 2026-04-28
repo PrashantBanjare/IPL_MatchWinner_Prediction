@@ -1,8 +1,8 @@
-# 🏏 IPL Match Winner Prediction
+# IPL Match Winner Prediction
 link - https://ipl-matchwinner-prediction.onrender.com
 A machine learning-powered web application that predicts the winning probability of a chasing team in IPL cricket matches based on live match situations.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 IPL/
@@ -20,7 +20,7 @@ IPL/
 └── IPL_Match_Winner_Prediction.ipynb # Model training notebook
 ```
 
-## 🚀 Features
+## Features
 
 - **Live Match Prediction**: Enter current match details and get winning probability
 - **Team Selection**: Choose batting and bowling teams
@@ -28,7 +28,7 @@ IPL/
 - **Score Input**: Enter current score, overs, and wickets
 - **Interactive UI**: Clean Streamlit interface with IPL branding
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -51,7 +51,7 @@ IPL/
    streamlit run app.py
    ```
 
-## 📊 Data Sources
+## Data Sources
 
 - **matches.csv**: Contains match-level data (2008-2019)
 - **deliveries.csv**: Contains ball-by-ball delivery data
@@ -68,7 +68,7 @@ IPL/
 | Data Analysis | Pandas, NumPy |
 | Visualization | Matplotlib, Seaborn |
 
-## 📋 Requirements
+## Requirements
 
 ```
 altair==6.1.0
@@ -80,7 +80,7 @@ seaborn==0.13.2
 streamlit==1.42.2
 ```
 
-## 📖 Notebooks
+## Notebooks
 
 ### Data Preprocessing
 - Data loading from CSV files
@@ -97,7 +97,7 @@ streamlit==1.42.2
 - Model training and evaluation
 - Model serialization (pickle)
 
-## 🎯 Usage
+## Usage
 
 1. Launch the app with `streamlit run app.py`
 2. Select the batting team from the dropdown
@@ -109,10 +109,10 @@ streamlit==1.42.2
    - Wickets Fallen
 6. Click "Predict Winner" to see the winning probability
 
-## 📝 License
+## License
 
 This project is for educational purposes.
 
-## 👨‍💻 Author
+## Author
 
 Data Science Project - IPL Analysis
